@@ -1,3 +1,8 @@
+// this keyword 
+// this keyword is used when we have to refer something from the current context 
+// like from the current scope we have call some value of the object 
+// we use this keyword 
+
 const user = {
     username: "Tanisha",
     price: 999,
@@ -34,14 +39,21 @@ chai()
 
 //there are diff diff ways to write arrow function
 
-// const addTwo = (num1, num2) => {
-//     return num1 + num2
-// }
+//basic arrow function
+     const addTwo = (num1, num2) => {
+      return num1 + num2
+         }
 
-// const addTwo = (num1, num2) =>  num1 + num2
 
-// const addTwo = (num1, num2) => ( num1 + num2 )
-console.log(addTwo(3, 4))
+
+/*
+   implicit return in arrow function
+   we assume that we dont need reutrn statement because we have a simple one line problem
+   we remove parenthesis and return and take all values in one line
+*/
+ const addNum = (num1, num2) =>  num1 + num2
+ const add2 = (num1, num2) => ( num1 + num2 )
+console.log(add2(3, 4))
 
 
 const myArray = [2, 5, 3, 7, 8]
