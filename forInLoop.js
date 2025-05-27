@@ -1,5 +1,9 @@
 //for in loop
-//with objects 
+/*for in loop used to iterate over the propertis of an object .
+ The for-in loop iterates only over those keys of an object which have their enumeable proper set to true ,
+*/
+
+//for-in loop with objects 
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
@@ -12,7 +16,7 @@ for (const key in myObject) {
 }
 
 
-//with arrays 
+//for-in loop with arrays 
 const programming = ["js", "rb", "py", "java", "cpp"]
 for (const key in programming) {
     console.log(programming[key]);
