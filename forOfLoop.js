@@ -1,5 +1,10 @@
 // for of
 
+/*
+ for-of loop is used to iterate the iterable objects . for ex array , object , set and map . 
+ it directly iterate the value of the given iterable object and has more concise syntax than for loop.
+ */
+
 // ["", "", ""]
 // [{}, {}, {}]
 
