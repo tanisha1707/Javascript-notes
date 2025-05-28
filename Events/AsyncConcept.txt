@@ -1,0 +1,14 @@
+ Javascript is a synchronous(code execution done oe by one) and single threaded language 
+
+//execution context
+ execute one line of a code at a time , each operation waits for the last one to complete before executing 
+
+
+ javascript me 2 type ke code likhe jate he - blocking code and non-blocking code 
+
+ blocking code :- blocks the flow of program , for ex something is running in the program and taking toomuch 
+                time then it will wait for the completion of that til then didn't do anything 
+
+ non-blocking code :- does not block execution , for ex something is running in the program and taking toomuch time then 
+                  it will start doing something else till the completionof that and then resume from thee after the  completion of that
+ 
